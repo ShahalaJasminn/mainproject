@@ -1,0 +1,23 @@
+ {% extends "Admin/Admin_dashboardsub.html" %}
+{% block body %}
+<body>
+<table border="1">
+
+            <tr>
+                <th>SlNo</th>
+                <th>Name</th>
+                <th>Contact Info</th>
+                <th>Address</th>
+
+            </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ i.name }}</td>
+        <td> Email:{{ i.email}},Phone:{{ i.phone }}</td>
+        <td>{{ i.place}}</td>
+    </tr>
+
+{% endfor %}
+</table>
+{% endblock %}

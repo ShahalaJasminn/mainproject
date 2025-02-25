@@ -1,0 +1,19 @@
+ {% extends "Admin/Admin_dashboardsub.html" %}
+{% block body %}
+<body>
+<table border="1">
+            <tr>
+                <th>Feedback</th>
+
+            </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ i.user_id.name }}</td>
+        <td>{{ i.feedback }}</td>
+        <td>{{ i.date }}</td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+{% endblock %}
