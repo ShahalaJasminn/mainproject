@@ -1,6 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
 
 # Create your views here.
 from my_app.models import *
@@ -9,12 +8,17 @@ from my_app.models import *
 def index(request):
     return render(request,"home.html")
 
+
+
 def login(request):
     return render(request,"login.html")
+
 def login_post(request):
     username=request.POST['username']
     password=request.POST['pass']
     a=Login.objects.get(username=username,password=password)
+    request.session['lid']=a.id
+
     if a.type=='admin':
         return HttpResponse('''<script>alert('Admin logined...');window.location='/admin_dash'</script>''')
     elif a.type=='user':
@@ -22,10 +26,19 @@ def login_post(request):
     else:
         return HttpResponse('''<script>alert('invalid...');window.location='/'</script>''')
 
+def logout(request):
+    request.session['lid']=''
+    return redirect('/')
+
+
 def admin_dash(request):
+    if request.session['lid']=='':
+        return redirect('/')
     return render(request,"Admin/Admin_dashboard.html")
 
 def user_dash(request):
+    if request.session['lid'] =='':
+        return redirect('/')
     return render(request,"User/User_dashboard.html")
 
 def registration(request):
@@ -57,11 +70,34 @@ def registration_POST(request):
     else:
         return HttpResponse('''<script>alert('invalid...');window.location='/registration'</script>''')
 def view_feedback(request):
+    if request.session['lid'] =='':
+        return redirect('/')
     a=Feedback.objects.all()
     return render(request,"Admin/admin_view_feedback.html",{'data':a})
 
 def view_user(request):
+    if request.session['lid'] =='':
+        return redirect('/')
     b=User.objects.all()
     return render(request,"Admin/admin_view_users.html",{'data':b})
 
 
+def send_feedback(request):
+    if request.session['lid'] =='':
+        return redirect('/')
+
+    return render(request,"User/send_feedback.html")
+
+
+def send_feedback_post(request):
+    feedback=request.POST['name']
+    a=Feedback()
+    a.user_id=User.objects.get(login_id_id=request.session['lid'])
+    a.feedback=feedback
+    a.save()
+    return redirect('/user_dash')
+
+def upload_image(request):
+    if request.session['lid'] =='':
+        return redirect('/')
+    return render(request,"User/upload_image.html")

@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<title>Registration</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 		<!-- LINEARICONS -->
 		<link rel="stylesheet" href="static/register/fonts/linearicons/style.css">
 
@@ -22,24 +22,34 @@
 					<h3>New Account?</h3>
 					<div class="form-holder">
 						<span class="lnr lnr-user"></span>
-						<input type="text" name="textfield4" class="form-control" placeholder="Username">
+						<input type="text" name="textfield4" class="form-control" placeholder="Username" required>
 					</div>
 					<div class="form-holder">
 						<span class="lnr lnr-phone-handset"></span>
-						<input type="text"  name="textfield1" class="form-control" placeholder="Phone Number">
+						<input type="number"  name="textfield1" class="form-control" placeholder="Phone Number" required>
 					</div>
                     <div class="form-holder">
-						<span class="lnr lnr-user"></span>
-						<input type="text"  name="textfield2" class="form-control" placeholder="Place">
+						<span class="lnr lnr-location"></span>
+						<input type="text"  name="textfield2" class="form-control" placeholder="Place" required>
 					</div>
 					<div class="form-holder">
 						<span class="lnr lnr-envelope"></span>
-						<input type="text" name="textfield3" class="form-control" placeholder="Mail">
+						<input type="text" name="textfield3" class="form-control" placeholder="Mail" required>
 					</div>
-					<div class="form-holder">
-						<span class="lnr lnr-lock"></span>
-						<input type="password" name="pass1" class="form-control" placeholder="Password">
-					</div>
+{#					<div class="form-holder">#}
+{#						<span class="lnr lnr-lock"></span>#}
+{#						<input type="password" name="pass1" class="form-control" placeholder="Password">#}
+{#					</div>#}
+                    <div class="form-holder">
+    <span class="lnr lnr-lock"></span>
+    <div class="input-group">
+        <input type="password" class="form-control" name="pass1" placeholder="Password" id="password" required>
+        <div class="input-group-addon" onclick="passwordVisibility();">
+            <i class="fa fa-eye" id="showPass"></i>
+            <i class="fa fa-eye-slash d-none" id="hidePass"></i>
+        </div>
+    </div>
+</div>
 					<div class="form-holder">
 						<span class="lnr lnr-lock"></span>
 						<input type="password" name="pass2" class="form-control" placeholder="Confirm Password">

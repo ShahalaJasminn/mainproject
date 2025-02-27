@@ -1,19 +1,13 @@
- {% extends "Admin/Admin_dashboardsub.html" %}
+{% extends "User/User_dashboard.html" %}
 {% block body %}
 <body>
-<table border="1">
-            <tr>
-                <th>Feedback</th>
+<h2><center>Send Feedback</center></h2>
+<form action="/send_feedback_post" method="post">{% csrf_token %}
+    <label for="name">Feedback:</label>
+    <input type="text" id="name" name="name" placeholder="Type here.....">
+    <br><br>
+    <button type="submit">Send</button>
 
-            </tr>
-    {% for i in data %}
-    <tr>
-        <td>{{ forloop.counter }}</td>
-        <td>{{ i.user_id.name }}</td>
-        <td>{{ i.feedback }}</td>
-        <td>{{ i.date }}</td>
-    </tr>
-{% endfor %}
-</table>
+</form>
 </body>
 {% endblock %}

@@ -1,13 +1,17 @@
-{% extends "Admin/Admin_dashboardsub.html" %}
+{% extends "Admin/Admin_dashboard.html" %}
 {% block body %}
+    <h2><center> View Feedbacks</center></h2>
 <body>
-<table border="1">
+<table class="table table-bordered">
+<thead>
             <tr>
                 <th>SlNo</th>
                 <th>Name</th>
                 <th>Feedback</th>
                 <th>Date</th>
             </tr>
+</thead>
+<tbody>
     {% for i in data %}
     <tr>
         <td>{{ forloop.counter }}</td>
@@ -16,5 +20,6 @@
         <td>{{ i.date }}</td>
     </tr>
 {% endfor %}
+</tbody>
 </table>
 {% endblock %}

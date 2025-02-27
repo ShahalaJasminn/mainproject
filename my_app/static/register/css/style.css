@@ -194,3 +194,31 @@ button {
     background: none; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group input {
+    width: 100%;
+    padding-right: 40px; /* Ensure space for the eye icon */
+}
+
+.input-group-addon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.input-group-addon i {
+    transition: 0.3s ease-in-out;
+}
+
+.d-none {
+    display: none !important;
+}
