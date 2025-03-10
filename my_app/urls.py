@@ -19,5 +19,6 @@ urlpatterns=[
     path('send_feedback',views.send_feedback),
     path('send_feedback_post', views.send_feedback_post),
     path('upload_image',views.upload_image),
+    path('uploadimageee',views.uploadimageee),
 
 ]

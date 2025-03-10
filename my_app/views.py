@@ -1,8 +1,10 @@
+from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from my_app.models import *
+from my_app.predictioncnn import predict
 
 
 def index(request):
@@ -97,7 +99,16 @@ def send_feedback_post(request):
     a.save()
     return redirect('/user_dash')
 
+
+def uploadimageee(request):
+    return render(request,"User/uploadimg.html")
+
+
 def upload_image(request):
-    if request.session['lid'] =='':
-        return redirect('/')
-    return render(request,"User/upload_image.html")
+    file=request.FILES['file']
+    fnn=FileSystemStorage()
+    fn=fnn.save(file.name,file)
+    print(fn,"hhhhhhhhhhhhhhhh")
+    res=predict(r"C:\Users\shaha\PycharmProjects\FarmMoni\media"+"/"+fn)
+    print(res,"ppppppppppppppppppp")
+    return render(request,"User/uploadimg.html",{"val":res})

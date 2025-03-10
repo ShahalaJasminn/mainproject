@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="static/register/fonts/linearicons/style.css">
 
 		<!-- STYLE CSS -->
-		<link rel="stylesheet" href="static/register//css/style.css">
+		<link rel="stylesheet" href="static/register/css/style.css">
 	</head>
 
 	<body>
@@ -34,12 +34,8 @@
 					</div>
 					<div class="form-holder">
 						<span class="lnr lnr-envelope"></span>
-						<input type="text" name="textfield3" class="form-control" placeholder="Mail" required>
+						<input type="text" id="email" name="textfield3" class="form-control" placeholder="Mail" required onblur="autoAppendEmail()">
 					</div>
-{#					<div class="form-holder">#}
-{#						<span class="lnr lnr-lock"></span>#}
-{#						<input type="password" name="pass1" class="form-control" placeholder="Password">#}
-{#					</div>#}
                     <div class="form-holder">
     <span class="lnr lnr-lock"></span>
     <div class="input-group">
@@ -65,5 +61,14 @@
 
 		<script src="static/register/js/jquery-3.3.1.min.js"></script>
 		<script src="static/register/js/main.js"></script>
-	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+        <script>
+            function autoAppendEmail() {
+                let emailField = document.getElementById("email");
+                let emailValue = emailField.value.trim();
+                if (emailValue !== "" && !emailValue.includes("@")) {
+                    emailField.value += "@gmail.com";
+                }
+            }
+        </script>
+	</body>
 </html>

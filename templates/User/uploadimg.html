@@ -1,0 +1,23 @@
+
+{% extends "User/User_dashboard.html" %}
+{% block body %}
+
+
+<body>
+    <form action="/upload_image" enctype="multipart/form-data" method="post">
+ <table>
+     <tr>
+         <td>
+
+          <input type="file"  name="file">
+
+           <input type="submit" value="submit">
+
+
+             result"{{ val }}
+         </td>
+     </tr>
+</table>
+        </form>
+</body>
+{% endblock %}
