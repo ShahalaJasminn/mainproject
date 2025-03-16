@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
+from my_app.GPred import growthpredict
 from my_app.models import *
 from my_app.predictioncnn import predict
 
@@ -104,11 +105,20 @@ def uploadimageee(request):
     return render(request,"User/uploadimg.html")
 
 
+
+
 def upload_image(request):
-    file=request.FILES['file']
+    file1=request.FILES['file1']
     fnn=FileSystemStorage()
-    fn=fnn.save(file.name,file)
+    fn=fnn.save(file1.name,file1)
     print(fn,"hhhhhhhhhhhhhhhh")
     res=predict(r"C:\Users\shaha\PycharmProjects\FarmMoni\media"+"/"+fn)
     print(res,"ppppppppppppppppppp")
-    return render(request,"User/uploadimg.html",{"val":res})
+
+    file2=request.FILES['file2']
+    fnn=FileSystemStorage()
+    fn=fnn.save(file2.name,file2)
+    print(fn)
+    ress=growthpredict(r"C:\Users\shaha\PycharmProjects\FarmMoni\media"+"/"+fn)
+    print(ress)
+    return render(request,"User/uploadimg.html",{"val":res,"val2":ress})

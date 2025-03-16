@@ -11,9 +11,9 @@ from keras.preprocessing.image import ImageDataGenerator
 # keras.backend.set_session(sess)
 #------------------------------
 #variables
-num_classes =10
-batch_size = 65
-epochs = 65
+num_classes =29
+batch_size = 95
+epochs = 95
 #------------------------------
 
 import os, keras
@@ -35,26 +35,52 @@ import cv2
 
 
 # Data Import
+# def read_dataset(path):
+#     data_list = []
+#     label_list = []
+#     my_list = os.listdir(r'D:\dataset\Data')
+#     i=-1
+#     for pa in my_list:
+#         i=i+1
+#         print(pa,"==================",i)
+#         for root, dirs, files in os.walk(r'D:\dataset\Data\\' + pa):
+#
+#          for f in files:
+#             file_path = os.path.join(r'D:\dataset\Data\\'+pa, f)
+#             img = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
+#             res = cv2.resize(img, (48, 48), interpolation=cv2.INTER_CUBIC)
+#             data_list.append(res)
+#             # label = dirPath.split('/')[-1]
+#             label = pa
+#             label_list.append(i)
+#             # label_list.remove("./training")
+#     return (np.asarray(data_list, dtype=np.float32), np.asarray(label_list))
+
+
 def read_dataset(path):
     data_list = []
     label_list = []
-    my_list = os.listdir(r'D:\data')
-    i=-1
+    my_list = os.listdir(path)
+    i = -1
     for pa in my_list:
-        i=i+1
-        print(pa,"==================",i)
-        for root, dirs, files in os.walk(r'D:\data\\' + pa):
+        i += 1
+        print(pa, "==================", i)
+        for root, dirs, files in os.walk(os.path.join(path, pa)):
+            for f in files:
+                file_path = os.path.join(path, pa, f)
+                img = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
 
-         for f in files:
-            file_path = os.path.join(r'D:\data\\'+pa, f)
-            img = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
-            res = cv2.resize(img, (48, 48), interpolation=cv2.INTER_CUBIC)
-            data_list.append(res)
-            # label = dirPath.split('/')[-1]
-            label = pa
-            label_list.append(i)
-            # label_list.remove("./training")
-    return (np.asarray(data_list, dtype=np.float32), np.asarray(label_list))
+                # Check if image is loaded
+                if img is None:
+                    print(f"Warning: Unable to load image {file_path}. Skipping...")
+                    continue
+
+                res = cv2.resize(img, (48, 48), interpolation=cv2.INTER_CUBIC)
+                data_list.append(res)
+                label_list.append(i)
+
+    return np.asarray(data_list, dtype=np.float32), np.asarray(label_list)
+
 
 def read_dataset1(path):
     data_list = []
@@ -71,7 +97,7 @@ def read_dataset1(path):
 
 from sklearn.model_selection import train_test_split
 # load dataset
-x_dataset, y_dataset = read_dataset(r"D:\data")
+x_dataset, y_dataset = read_dataset(r"D:\dataset\Plant Village Dataset\Train")
 X_train, X_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.2, random_state=0)
 
 y_train1=[]

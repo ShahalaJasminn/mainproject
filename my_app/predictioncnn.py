@@ -73,7 +73,7 @@ def predict(fn):
 
     # predict probabilities for test set
 
-    my_list = os.listdir(r'D:\data')
+    my_list = os.listdir(r'D:\dataset\Data')
     yhat_classes = mo.predict_classes(dataset, verbose=0)[0]
     return my_list[yhat_classes]
 #

@@ -1,23 +1,113 @@
+{##}
+{#{% extends "User/User_dashboard.html" %}#}
+{#{% block body %}#}
+{##}
+{##}
+{#<body>#}
+{#    <form action="/upload_image" enctype="multipart/form-data" method="post">#}
+{# <table>#}
+{#     <tr>#}
+{#         <td>#}
+{##}
+{#          <input type="file"  name="file">#}
+{##}
+{#           <input type="submit" value="predict">#}
+{##}
+{##}
+{#             result"{{ val }}#}
+{#         </td>#}
+{#     </tr>#}
+{#</table>#}
+{#        </form>#}
+{#</body>#}
+{#{% endblock %}#}
+
+
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+</style>
+
+
 
 {% extends "User/User_dashboard.html" %}
 {% block body %}
 
-
 <body>
     <form action="/upload_image" enctype="multipart/form-data" method="post">
- <table>
-     <tr>
-         <td>
+        <table>
+            <tr>
+                <td>
+                    <label>Upload plant image:</label>
+                    <input type="file" name="file1">
 
-          <input type="file"  name="file">
+                    <label>Upload leaf image</label>
+                    <input type="file" name="file2">
 
-           <input type="submit" value="submit">
-
-
-             result"{{ val }}
-         </td>
-     </tr>
-</table>
-        </form>
+                    <input type="submit" value="Predict">
+                    <div class="result">Result: {{ val2 }}</div>
+                    <div class="result">Result: {{ val }}</div>
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
+
 {% endblock %}
+
