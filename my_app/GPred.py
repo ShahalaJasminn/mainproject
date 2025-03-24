@@ -6,6 +6,7 @@ import os
 import tensorflow as tf
 
 import keras
+
 from keras.engine.saving import load_model
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, AveragePooling2D
@@ -73,10 +74,10 @@ def growthpredict(fn):
 
     # predict probabilities for test set
 
-    my_list = os.listdir(r'D:\dataset\Tomato_Plant_Stages_Dataset')
+    my_list = os.listdir(r'D:\dataset\Growth stages')
     yhat_classes = mo.predict_classes(dataset, verbose=0)[0]
     return my_list[yhat_classes]
-#
+
 #     print(yhat_classes)
 
 # print(predict(r"sss.JPG"))

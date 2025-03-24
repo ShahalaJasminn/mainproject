@@ -11,9 +11,9 @@ from keras.preprocessing.image import ImageDataGenerator
 # keras.backend.set_session(sess)
 #------------------------------
 #variables
-num_classes =2
-batch_size = 30
-epochs = 30
+num_classes =11
+batch_size = 90
+epochs = 90
 #------------------------------
 
 import os, keras
@@ -38,15 +38,15 @@ import cv2
 def read_dataset(path):
     data_list = []
     label_list = []
-    my_list = os.listdir(r'D:\dataset\Tomato_Plant_Stages_Dataset')
+    my_list = os.listdir(r'D:\dataset\Growth stages')
     i=-1
     for pa in my_list:
         i=i+1
         print(pa,"==================",i)
-        for root, dirs, files in os.walk(r'D:\dataset\Tomato_Plant_Stages_Dataset\\' + pa):
+        for root, dirs, files in os.walk(r'D:\dataset\Growth stages\\' + pa):
 
          for f in files:
-            file_path = os.path.join(r'D:\dataset\Tomato_Plant_Stages_Dataset\\'+pa, f)
+            file_path = os.path.join(r'D:\dataset\Growth stages\\'+pa, f)
 
             try:
                 img = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
@@ -76,7 +76,7 @@ def read_dataset1(path):
 
 from sklearn.model_selection import train_test_split
 # load dataset
-x_dataset, y_dataset = read_dataset(r"D:\dataset\Tomato_Plant_Stages_Dataset")
+x_dataset, y_dataset = read_dataset(r"D:\dataset\Growth stages")
 X_train, X_test, y_train, y_test = train_test_split(x_dataset, y_dataset, test_size=0.2, random_state=0)
 
 y_train1=[]

@@ -16,7 +16,7 @@ from keras.preprocessing.image import ImageDataGenerator
 
 import numpy as np
 
-#------------------------------
+#--------------------------------
 # sess = tf.Session()
 # keras.backend.set_session(sess)
 #------------------------------
@@ -35,17 +35,12 @@ from keras.engine.saving import load_model
 # manipulate with numpy,load with panda
 import numpy as np
 # import pandas as pd
-
 # data visualization
 import cv2
 import matplotlib
 import matplotlib.pyplot as plt
 # import seaborn as sns
-
 # get_ipython().run_line_magic('matplotlib', 'inline')
-
-
-
 def read_dataset1(path):
     data_list = []
     label_list = []
@@ -58,25 +53,18 @@ def read_dataset1(path):
 
             # label_list.remove("./training")
     return (np.asarray(data_list, dtype=np.float32))
-
-
-
-
 def predict(fn):
     print(fn,"hhhhhhhhhhhhhhhhh")
     dataset=read_dataset1(fn)
     (mnist_row, mnist_col, mnist_color) = 48, 48, 1
-
     dataset = dataset.reshape(dataset.shape[0], mnist_row, mnist_col, mnist_color)
     dataset=dataset/255
     mo = load_model(r"C:\Users\shaha\PycharmProjects\FarmMoni\my_app\model1.h5")
-
     # predict probabilities for test set
-
-    my_list = os.listdir(r'D:\dataset\Data')
+    my_list = os.listdir(r'D:\dataset\Plant Village Dataset\Train')
     yhat_classes = mo.predict_classes(dataset, verbose=0)[0]
     return my_list[yhat_classes]
 #
 #     print(yhat_classes)
 
-# print(predict(r"sss.JPG"))
+# print(predict(r"D:\dataset\Plant Village Dataset\Train\Apple - Apple Scab\0cbfa4fa-63d8-43ce-9385-ff140e524b69___FREC_Scab 3164_270deg.JPG"))

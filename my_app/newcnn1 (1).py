@@ -12,8 +12,8 @@ from keras.preprocessing.image import ImageDataGenerator
 #------------------------------
 #variables
 num_classes =29
-batch_size = 95
-epochs = 95
+batch_size = 99
+epochs = 99
 #------------------------------
 
 import os, keras

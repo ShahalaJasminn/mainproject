@@ -25,63 +25,247 @@
 
 
 <style>
+{#body {#}
+{#    font-family: Arial, sans-serif;#}
+{#    background-color: #f4f4f4;#}
+{#    text-align: center;#}
+{#    padding: 20px;#}
+{#}#}
+{##}
+{#form {#}
+{#    background: white;#}
+{#    padding: 20px;#}
+{#    border-radius: 10px;#}
+{#    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);#}
+{#    width: 40%;#}
+{#    margin: auto;#}
+{#    margin-top: 50px;#}
+{#}#}
+{##}
+{#input[type="file"] {#}
+{#    display: block;#}
+{#    margin: 20px auto;#}
+{#    padding: 10px;#}
+{#    border: 2px solid #007BFF;#}
+{#    border-radius: 5px;#}
+{#    cursor: pointer;#}
+{#}#}
+{##}
+{#input[type="submit"] {#}
+{#    background-color: #007BFF;#}
+{#    color: white;#}
+{#    border: none;#}
+{#    padding: 10px 20px;#}
+{#    font-size: 16px;#}
+{#    cursor: pointer;#}
+{#    border-radius: 5px;#}
+{#    transition: 0.3s ease;#}
+{#}#}
+{##}
+{#input[type="submit"]:hover {#}
+{#    background-color: #0056b3;#}
+{#}#}
+{##}
+{#table {#}
+{#    width: 100%;#}
+{#    margin-top: 20px;#}
+{#}#}
+{##}
+{#td {#}
+{#    padding: 10px;#}
+{#    font-size: 18px;#}
+{#}#}
+{##}
+{#.result {#}
+{#    margin-top: 20px;#}
+{#    font-size: 20px;#}
+{#    color: #333;#}
+{#    font-weight: bold;#}
+{#}#}
+{#    body {#}
+{#    font-family: Arial, sans-serif;#}
+{#    background-color: #f4f4f9;#}
+{#    margin: 0;#}
+{#    padding: 20px;#}
+{#    text-align: center;#}
+{#}#}
+{##}
+{#form {#}
+{#    background: white;#}
+{#    padding: 20px;#}
+{#    border-radius: 10px;#}
+{#    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);#}
+{#    max-width: 500px;#}
+{#    margin: auto;#}
+{#}#}
+{##}
+{#label {#}
+{#    font-weight: bold;#}
+{#    display: block;#}
+{#    margin-top: 10px;#}
+{#}#}
+{##}
+{#select, input[type="file"], input[type="submit"] {#}
+{#    width: 100%;#}
+{#    padding: 10px;#}
+{#    margin-top: 5px;#}
+{#    border: 1px solid #ccc;#}
+{#    border-radius: 5px;#}
+{#}#}
+{##}
+{#input[type="submit"] {#}
+{#    background: #28a745;#}
+{#    color: white;#}
+{#    font-size: 16px;#}
+{#    cursor: pointer;#}
+{#    transition: 0.3s;#}
+{#}#}
+{##}
+{#input[type="submit"]:hover {#}
+{#    background: #218838;#}
+{#}#}
+{##}
+{#/* Table Styling */#}
+{#.result {#}
+{#    display: none;#}
+{#    margin-top: 20px;#}
+{#}#}
+{##}
+{#.result h3 {#}
+{#    color: #333;#}
+{#    margin-bottom: 10px;#}
+{#}#}
+{##}
+{#.result-table {#}
+{#    width: 100%;#}
+{#    border-collapse: collapse;#}
+{#    margin-top: 10px;#}
+{#}#}
+{##}
+{#.result-table th, .result-table td {#}
+{#    border: 1px solid #ddd;#}
+{#    padding: 10px;#}
+{#    text-align: left;#}
+{#}#}
+{##}
+{#.result-table th {#}
+{#    background: #28a745;#}
+{#    color: white;#}
+{#}#}
+{##}
+{#/* Responsive Design */#}
+{#@media (max-width: 600px) {#}
+{#    form {#}
+{#        max-width: 100%;#}
+{#    }#}
+{##}
+{#    .result-table th, .result-table td {#}
+{#        font-size: 14px;#}
+{#    }#}
+{#}#}
+
+
+
+    /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+/* Form Container */
 form {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 40%;
-    margin: auto;
-    margin-top: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
 }
 
+/* Dropdown Styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* File Upload */
 input[type="file"] {
     display: block;
-    margin: 20px auto;
-    padding: 10px;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 5px;
 }
 
+/* Submit Button */
 input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #28a745;
     color: white;
+    padding: 10px;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
     border-radius: 5px;
-    transition: 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #218838;
 }
 
-table {
-    width: 100%;
+/* Results Section */
+.result-container {
     margin-top: 20px;
 }
 
-td {
+.result-container h3 {
+    background: #007bff;
+    color: white;
     padding: 10px;
-    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.result {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #333;
-    font-weight: bold;
+/* Result Table */
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
 }
+
+.result-table th, .result-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.result-table th {
+    background: #007bff;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
 </style>
 
 
@@ -89,25 +273,232 @@ td {
 {% extends "User/User_dashboard.html" %}
 {% block body %}
 
+{#<body>#}
+{#    <form action="/upload_image" enctype="multipart/form-data" method="post">#}
+{#        <table>#}
+{#            <label for="category">Stages</label>#}
+{#            <select id="category" name="category" required>#}
+{#                <option>Select Stage</option>#}
+{#                <option value="Growth stage">Growth stage</option>#}
+{#                <option value="Leaf Disease">Leaf Disease </option>#}
+{#            </select>#}
+{##}
+{#            <tr>#}
+{#                <td>#}
+{#                    <label>Upload plant image:</label>#}
+{#                    <input type="file" name="file1">#}
+{##}
+{#                    <label>Upload leaf image</label>#}
+{#                    <input type="file" name="file2">#}
+{##}
+{#                    <input type="submit" value="Predict">#}
+{#                    <div class="result">Result: {{ val2 }}</div>#}
+{#                    <div class="result">Result: {{ val }}</div>#}
+{#                </td>#}
+{#            </tr>#}
+{#        </table>#}
+{#    </form>#}
+{#</body>#}
+
+{# <body>#}
+{#    <form action="/upload_image" enctype="multipart/form-data" method="post">#}
+{#        <table>#}
+{#            <label for="category">Stages</label>#}
+{#            <select id="category" name="category" required onchange="toggleInputs()">#}
+{#                <option value="">Select Stage</option>#}
+{#                <option value="Growth stage">Growth stage</option>#}
+{#                <option value="Leaf Disease">Leaf Disease</option>#}
+{#            </select>#}
+{##}
+{#            <tr>#}
+{#                <td>#}
+{#                    <!-- Plant Image Upload -->#}
+{#                    <div id="plant-upload" style="display: none;">#}
+{#                        <label>Upload plant image:</label>#}
+{#                        <input type="file" name="file1">#}
+{#                    </div>#}
+{##}
+{#                    <!-- Leaf Image Upload -->#}
+{#                    <div id="leaf-upload" style="display: none;">#}
+{#                        <label>Upload leaf image:</label>#}
+{#                        <input type="file" name="file2">#}
+{#                    </div>#}
+{##}
+{#                    <input type="submit" value="Predict">#}
+{#                    <div class="result">Result: {{ val2 }}</div>#}
+{#                    <div class="result">Result: {{ val }}</div>#}
+{#                </td>#}
+{#            </tr>#}
+{#        </table>#}
+{#    </form>#}
+{##}
+{#    <script>#}
+{#        function toggleInputs() {#}
+{#            const category = document.getElementById('category').value;#}
+{#            const plantUpload = document.getElementById('plant-upload');#}
+{#            const leafUpload = document.getElementById('leaf-upload');#}
+{##}
+{#            if (category === 'Growth stage') {#}
+{#                plantUpload.style.display = 'block';#}
+{#                leafUpload.style.display = 'none';#}
+{#            } else if (category === 'Leaf Disease') {#}
+{#                plantUpload.style.display = 'none';#}
+{#                leafUpload.style.display = 'block';#}
+{#            } else {#}
+{#                plantUpload.style.display = 'none';#}
+{#                leafUpload.style.display = 'none';#}
+{#            }#}
+{#        }#}
+{#    </script>#}
+{#</body>#}
+
 <body>
-    <form action="/upload_image" enctype="multipart/form-data" method="post">
+{#    <form action="/upload_image" enctype="multipart/form-data" method="post">#}
+    <form action="/upload_growth_image" enctype="multipart/form-data" method="post">
         <table>
+            <label for="category">Stages</label>
+            <select id="category" name="category" required onchange="toggleInputs()">
+                <option value="">Select Stage</option>
+                <option value="Growth stage">Growth stage</option>
+                <option value="Leaf Disease">Leaf Disease</option>
+            </select>
+
             <tr>
                 <td>
-                    <label>Upload plant image:</label>
-                    <input type="file" name="file1">
+                    <!-- Plant Image Upload -->
+                    <div id="plant-upload" style="display: none;">
+                        <br>
+                        <label>Upload plant image:</label>
+                        <input type="file" name="file1">
+                        <br>
+                    </div>
 
-                    <label>Upload leaf image</label>
-                    <input type="file" name="file2">
+                    <!-- Leaf Image Upload -->
+                    <div id="leaf-upload" style="display: none;">
+                        <label>Upload leaf image:</label>
+                        <input type="file" name="file2">
+                    </div>
 
-                    <input type="submit" value="Predict">
-                    <div class="result">Result: {{ val2 }}</div>
-                    <div class="result">Result: {{ val }}</div>
+                    <input type="submit" value="Predict" name="btn">
+
+
+
+                <div class="result-container" id="disease-result" style="display: none;">
+                    <h3>Prediction Result</h3>
+        <table class="result-table">
+        <tr>
+            <th> Leaf Disease</th>
+            <td>{{ diseases }}</td>
+        </tr>
+            <tr>
+            <th>Recommended Chemical</th>
+                <td>{{ RecommendedChemical }}</td>
+        </tr>
+        <tr>
+            <th>Application Method</th>
+            <td>{{ ApplicationMethod }}</td>
+        </tr>
+        </table></div>
+
+                    <!-- Growth Stage Result -->
+{#                    <div id="growth-result" class="result" style="display: none;">#}
+{#                        Result: {{ val2 }}#}
+{#                    </div>#}
+                    <!-- Growth Stage Result -->
+{#<div id="growth-result" class="result" style="display: none;">#}
+{#    <p>Result: {{ val2 }}</p>#}
+{##}
+{#  {% if fertilizer %}#}
+{#      <h3>Fertilizer Recommendation</h3>#}
+{#<p><strong>Fertilizer Name:</strong> {{ fertilizer.Fertilizer_Name }}</p>#}
+{#<p><strong>Quantity (Acre and Cent):</strong> {{ fertilizer.Quantity_Acre_Cent }}</p>#}
+{#<p><strong>Usage Manner:</strong> {{ fertilizer.Usage_Manner }}</p>#}
+{#      <p><strong>Watering:</strong> {{ fertilizer.Weekly_Watering_Schedule}}</p>#}
+{##}
+{##}
+{#{% else %}#}
+{#    <p>No fertilizer recommendation available.</p>#}
+{#{% endif %}#}
+{##}
+{##}
+{##}
+{##}
+{##}
+{##}
+{#</div>#}
+                    <div class="result-container" id="growth-result" style="display: none;">
+    <h3>Prediction Result</h3>
+    <table class="result-table">
+        <tr>
+            <th> Growth Stage</th>
+            <td>{{ val2 }}</td>
+        </tr>
+
+        {% if fertilizer %}
+        <tr>
+            <th>Fertilizer Name</th>
+            <td>{{ fertilizer.Fertilizer_Name }}</td>
+        </tr>
+        <tr>
+            <th>Quantity (Acre and Cent)</th>
+            <td>{{ fertilizer.Quantity_Acre_Cent }}</td>
+        </tr>
+        <tr>
+            <th>Usage Manner</th>
+            <td>{{ fertilizer.Usage_Manner }}</td>
+        </tr>
+        <tr>
+            <th>Watering Schedule</th>
+            <td>{{ fertilizer.Weekly_Watering_Schedule }}</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="2">No fertilizer recommendation available.</td>
+        </tr>
+        {% endif %}
+    </table>
+</div>
+
+
+
+                    <!-- Leaf Disease Result -->
+{#                    <div id="disease-result" class="result" style="display: none;">#}
+{#                        Result: {{ val }}#}
+{#                    </div>#}
                 </td>
             </tr>
         </table>
     </form>
+
+    <script>
+        function toggleInputs() {
+            const category = document.getElementById('category').value;
+            const plantUpload = document.getElementById('plant-upload');
+            const leafUpload = document.getElementById('leaf-upload');
+            const growthResult = document.getElementById('growth-result');
+            const diseaseResult = document.getElementById('disease-result');
+
+            if (category === 'Growth stage') {
+                plantUpload.style.display = 'block';
+                leafUpload.style.display = 'none';
+                growthResult.style.display = 'block';
+                diseaseResult.style.display = 'none';
+            } else if (category === 'Leaf Disease') {
+                plantUpload.style.display = 'none';
+                leafUpload.style.display = 'block';
+                growthResult.style.display = 'none';
+                diseaseResult.style.display = 'block';
+            } else {
+                plantUpload.style.display = 'none';
+                leafUpload.style.display = 'none';
+                growthResult.style.display = 'none';
+                diseaseResult.style.display = 'none';
+            }
+        }
+    </script>
 </body>
+
+
 
 {% endblock %}
 

@@ -18,7 +18,10 @@ urlpatterns=[
     path('view_user',views.view_user),
     path('send_feedback',views.send_feedback),
     path('send_feedback_post', views.send_feedback_post),
-    path('upload_image',views.upload_image),
     path('uploadimageee',views.uploadimageee),
+    # path('upload_image',views.upload_image),
+    # path('upload_disease_image',views.upload_disease_image),
+    path('recommend_fertilizer',views.recommend_fertilizer),
+    path('upload_growth_image',views.upload_growth_image),
 
 ]

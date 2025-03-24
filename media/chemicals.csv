@@ -1,0 +1,30 @@
+Plant - Disease,Recommended Chemical,Application Method
+Apple - Apple Scab,"Mancozeb, Captan",Spray on leaves after infection or as a preventive measure
+Apple - Black Rot,Copper-based fungicides,"Apply as foliar spray, avoid excessive use"
+Apple - Cedar Apple Rust,"Myclobutanil, Mancozeb",Apply early in the season for best results
+Apple - Healthy,No treatment needed,No application needed
+Bell Pepper - Bacterial Spot,"Copper Hydroxide, Streptomycin",Use as a foliar spray during early signs of infection
+Bell Pepper - Healthy,No treatment needed,No application needed
+Cherry - Healthy,No treatment needed,No application needed
+Cherry - Powdery Mildew,Sulfur-based fungicides,"Apply at first sign of disease, repeat as needed"
+Corn (Maize) - Cercospora Leaf Spot,"Azoxystrobin, Pyraclostrobin","Apply as a foliar spray in warm, humid conditions"
+Corn (Maize) - Common Rust,"Mancozeb, Propiconazole","Use at first sign of infection, repeat after rain"
+Corn (Maize) - Healthy,No treatment needed,No application needed
+Corn (Maize) - Northern Leaf Blight,"Chlorothalonil, Mancozeb",Apply every 7-10 days for effective control
+Grape - Black Rot,"Trifloxystrobin, Myclobutanil",Apply preventively before symptoms appear
+Grape - Esca (Black Measles),"Sodium Arsenite, Carbendazim",Apply post-harvest to reduce spread
+Grape - Healthy,No treatment needed,No application needed
+Grape - Leaf Blight,"Mancozeb, Captan",Apply as a foliar spray before disease spreads
+Peach - Bacterial Spot,Copper-based bactericides,Use early in the season and repeat if needed
+Peach - Healthy,No treatment needed,No application needed
+Potato - Early Blight,"Chlorothalonil, Mancozeb",Apply in cool weather to prevent spread
+Potato - Healthy,No treatment needed,No application needed
+Potato - Late Blight,"Metalaxyl, Chlorothalonil",Use during moist conditions to prevent disease
+Strawberry - Healthy,No treatment needed,No application needed
+Strawberry - Leaf Scorch,"Myclobutanil, Azoxystrobin","Apply preventively, avoid wetting fruit directly"
+Tomato - Bacterial Spot,"Copper Hydroxide, Streptomycin",Spray early in the season and repeat if necessary
+Tomato - Early Blight,"Chlorothalonil, Mancozeb",Apply before symptoms appear for best results
+Tomato - Healthy,No treatment needed,No application needed
+Tomato - Late Blight,"Metalaxyl, Chlorothalonil",Use in humid weather to prevent outbreaks
+Tomato - Septoria Leaf Spot,"Chlorothalonil, Copper-based fungicides",Apply regularly as per label instructions
+Tomato - Yellow Leaf Curl Virus,No specific chemical treatment,Use resistant varieties as the primary control method

@@ -2,13 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61ed979-3b43-435f-8763-ef63d3d97a12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_app/GCNN.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_app/GPred.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my_app/model1.h5" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1_flipTB.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/00a6039c-e425-4f7d-81b1-d6b0e668517e___RS_HL 7669.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/00a6039c-e425-4f7d-81b1-d6b0e668517e___RS_HL 7669_KMHlmMR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S 8593_new30degFlipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ANwTkIe.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ANwTkIe_JSHQTVp.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ANwTkIe_T4duLZE.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ANwTkIe_XGjzV9B.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0QcmiG2B.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0QcmiG2B_cszCqXA.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0QcmiG2B_iQPLjqT.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP_Eie8ZpD.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP_ILG1hoS.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP_Pvx4m8g.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP_RSBESvX.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0WtpOhVP_ViMMEnp.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0a0d6a11-ddd6-4dac-8469-d5f65af5afca___RS_HL 0555_flipTB.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0a283423-3a6d-43a4-92e5-267c8153ca45___FREC_Pwd.M 4921.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0a285c8b-1c31-48d4-89f2-af8b9edc36f6___RS_HL 5759.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ab172fa-ac7b-4a3e-90c8-0708703eb3bb___RS_Late.B 5572_flipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0abb363c-2365-4816-a6c4-ce4bac6ffc38___FAM_B.Rot 3122_flipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ad1f85a-765f-43e5-8b7b-4a7521be768d___R.S_HL 5520 copy 2_flipLR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0b137624-885b-4d9b-b9e6-330c6681de4b___GHLB2 Leaf 8848_flipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0b37761a-de32-47ee-a3a4-e138b97ef542___JR_FrgE.S 2908_270deg.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bUD36Je.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bc2127e-99b9-44ea-bb2b-4e1b0b0f7624___RS_HL 7777.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bfeae5e-878a-45ac-b62c-fbdfa9577874___FAM_B.Rot 0501_flipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bfeae5e-878a-45ac-b62c-fbdfa9577874___FAM_B.Rot 0501_flipLR_NJmwwWC.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bff693d-bab0-4438-9dac-e4503e5e83bb___RS_HL 5741.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0bff693d-bab0-4438-9dac-e4503e5e83bb___RS_HL 5741_B6b87qa.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430_0Qoi836.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430_7Py6Cqm.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430_dZXkF9M.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430_enwMbFn.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430_rrhmTzG.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c865fa4-b0bf-4e69-b39a-d97b068cef84___RS_Erly.B 7477.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c9800f1-95a1-4ebb-a098-5fb51af0581b___FAM_B.Rot 3208_flipLR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0c9800f1-95a1-4ebb-a098-5fb51af0581b___FAM_B.Rot 3208_flipLR_LA6tBYI.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0cd24b0c-0a9d-483f-8734-5c08988e029f___FREC_C.Rust 3762_newGRR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0cd24b0c-0a9d-483f-8734-5c08988e029f___FREC_C.Rust 3762_newGRR_160G1Po.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0cd24b0c-0a9d-483f-8734-5c08988e029f___FREC_C.Rust 3762_newGRR_ea6PtGk.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0cd24b0c-0a9d-483f-8734-5c08988e029f___FREC_C.Rust 3762_newGRR_mP41xwU.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ce12a10-c6ff-494e-a927-5ddc809c707a___Mt.N.V_HL 8945_180deg.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ce12a10-c6ff-494e-a927-5ddc809c707a___Mt.N.V_HL 8945_180deg_4znwWEb.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ce4ee15-d59b-4212-ab2a-8b6a07f3634f___JR_HL 9707.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ce74db6-be9b-4c43-a104-6a3f9bcd2de2___NREC_B.Spot 1827.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0ce74db6-be9b-4c43-a104-6a3f9bcd2de2___NREC_B.Spot 1827_dCd58VH.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0o8jmnZb.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0o8jmnZb_zCOGjPp.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/0raL9EO2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861339_g3X6jr8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861412.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861412_ORXDzxf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861419.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861476.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861476_EgigHA8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1709272861484.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230278_4h1w6Af.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230287.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230339.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230345_EP1PrNn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230345_R11kDKD.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352_2BIaBXI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352_QB9Gck4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352_ZK0Tdgd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352_nZl5x1p.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230352_nxiQZa5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230358_Q6sDQTI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230358_WvBT3cN.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230412_pAUC7fJ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230436_rmGD0Uv.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230436_v4BYJbr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230506.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710490230506_oo6wwqC.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1710594998954.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1Egf7KGu.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1FfbrMoQ.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1FfbrMoQ_yJncN53.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Crops-2015-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Crops-2015-4_7YqqShG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Crops-2015-4_SaizCCD.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Crops-2015-4_lXfm1rb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581_BWVKEed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581_HeL2Uej.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581_QhkVqys.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581_kFfG30f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/IMG_1455-scaled-e1714426670251-600x581_stycaZT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/July-Crops-2014-34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/July-Crops-2014-34_0VZK80T.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/July-Crops-2014-34_ef87RwD.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/RS_Rust 1575.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1)_6Dq7aYt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1)_H9V1HQk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1)_cm8Vw5A.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1)_p1Uh8CX.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (1)_ufxKI4B.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (3).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_19deds1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_AtdPRme.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_GdlIk3P.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_ND2YV6U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_QJvPyFq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (4)_RgbLWjb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download (5).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/download_lStcJlb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/flowering_DSC02367.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02735.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02735_GFQfpIS.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02736.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02744.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02744_UzNEgHs.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02744_b4fe2iw.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_0lYENWW.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_0t77ZGI.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_G1RAUCi.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_HaIbnaw.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_LsBEWkt.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_OAQh86G.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_VP96d6E.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_cFWSW7r.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_ikDFVJI.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/fruiting_DSC02746_wJLhRnv.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (2)_JWpOLOT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (2)_YZG7BiU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (3).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (3)_AcAr9pW.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (3)_CbEjTNf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (3)_JhjtCXz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (3)_hb12m1M.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4)_1UferaO.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4)_N2D4vHK.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4)_gmoVHb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4)_sd4JqsQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (4)_y1ptHIQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images_R9MCDkU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images_nZMQ2BE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images_qkLEnWi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images_tLOQY6H.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wheat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wheat_B7uAvzT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wheat_HnUlawa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wheat_plkXXCQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/wheat_y1HlhhB.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/chemicals.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_app/model1.h5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/disease.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/fertilizers and watering schedule.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/GCNN.py" afterPath="$PROJECT_DIR$/my_app/GCNN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/GPred.py" afterPath="$PROJECT_DIR$/my_app/GPred.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/model1growth.h5" afterPath="$PROJECT_DIR$/my_app/model1growth.h5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/newcnn1 (1).py" afterPath="$PROJECT_DIR$/my_app/newcnn1 (1).py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/predictioncnn.py" afterPath="$PROJECT_DIR$/my_app/predictioncnn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/urls.py" afterPath="$PROJECT_DIR$/my_app/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_app/views.py" afterPath="$PROJECT_DIR$/my_app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Admin/admin_view_feedback.html" afterPath="$PROJECT_DIR$/templates/Admin/admin_view_feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Admin/admin_view_users.html" afterPath="$PROJECT_DIR$/templates/Admin/admin_view_users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/User/User_dashboard.html" afterPath="$PROJECT_DIR$/templates/User/User_dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/User/send_feedback.html" afterPath="$PROJECT_DIR$/templates/User/send_feedback.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/User/upload_image.html" afterPath="$PROJECT_DIR$/templates/User/upload_image.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/User/uploadimg.html" afterPath="$PROJECT_DIR$/templates/User/uploadimg.html" />
     </list>
@@ -20,10 +185,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FarmMoni$GCNN.coverage" NAME="GCNN Coverage Results" MODIFIED="1742013475817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
-    <SUITE FILE_PATH="coverage/FarmMoni$newcnn1__1_.coverage" NAME="newcnn1 (1) Coverage Results" MODIFIED="1742102962576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
-    <SUITE FILE_PATH="coverage/FarmMoni$predictioncnn.coverage" NAME="predictioncnn Coverage Results" MODIFIED="1741414006901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
-    <SUITE FILE_PATH="coverage/FarmMoni$GPred.coverage" NAME="GPred Coverage Results" MODIFIED="1742016169921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
+    <SUITE FILE_PATH="coverage/FarmMoni$GCNN.coverage" NAME="GCNN Coverage Results" MODIFIED="1742456416015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
+    <SUITE FILE_PATH="coverage/FarmMoni$newcnn1__1_.coverage" NAME="newcnn1 (1) Coverage Results" MODIFIED="1742104507855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
+    <SUITE FILE_PATH="coverage/FarmMoni$disease.coverage" NAME="disease Coverage Results" MODIFIED="1742716748379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/templates/User" />
+    <SUITE FILE_PATH="coverage/FarmMoni$predictioncnn.coverage" NAME="predictioncnn Coverage Results" MODIFIED="1742449462455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
+    <SUITE FILE_PATH="coverage/FarmMoni$GPred.coverage" NAME="GPred Coverage Results" MODIFIED="1742457594034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_app" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -31,26 +206,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_app/views.py">
+      <file leaf-file-name="chemicals.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/chemicals.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3696">
-              <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predictioncnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_app/predictioncnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-              <folding>
-                <element signature="e#26#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="957">
+              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,45 +219,21 @@
       <file leaf-file-name="uploadimg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/User/uploadimg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3399">
-              <caret line="103" column="55" lean-forward="false" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
+            <state relative-caret-position="33">
+              <caret line="279" column="45" lean-forward="false" selection-start-line="279" selection-start-column="45" selection-end-line="279" selection-end-column="45" />
+              <folding>
+                <marker date="1742719371587" expanded="false" signature="10117:10131" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newcnn1 (1).py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_app/newcnn1 (1).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#27#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GCNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_app/GCNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4191">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding>
-                <element signature="e#27#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GPred.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_app/GPred.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2013">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding>
-                <element signature="e#26#35#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +241,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="363">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -113,23 +250,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_image.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/User/upload_image.html">
+      <file leaf-file-name="fertilizers and watering schedule.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/User/fertilizers and watering schedule.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6435">
-              <caret line="195" column="58" lean-forward="false" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
-              <folding>
-                <element signature="e#5474#5496#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User_dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/User/User_dashboard.html">
+      <file leaf-file-name="disease.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/User/disease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1551">
-              <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+            <state relative-caret-position="858">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fertilizers.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/fertilizers.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1033">
+              <caret line="345" column="152" lean-forward="false" selection-start-line="345" selection-start-column="152" selection-end-line="345" selection-end-column="152" />
               <folding />
             </state>
           </provider>
@@ -155,6 +300,9 @@
       <find>send_feedback</find>
       <find>=========</find>
       <find>num_classes</find>
+      <find>upload_image</find>
+      <find>uploadimageee</find>
+      <find>upload_growth_image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,27 +325,30 @@
         <option value="$PROJECT_DIR$/my_app/static/Admin/upload/css.css" />
         <option value="$PROJECT_DIR$/my_app/static/Admin/upload/style.css" />
         <option value="$PROJECT_DIR$/my_app/static/Admin/upload/up.js" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_view_feedback.html" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_view_users.html" />
         <option value="$PROJECT_DIR$/templates/Admin/Admin_dashboard.html" />
-        <option value="$PROJECT_DIR$/templates/User/send_feedback.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/my_app/static/register/js/main.js" />
         <option value="$PROJECT_DIR$/my_app/static/register/css/style.css" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/registration.html" />
-        <option value="$PROJECT_DIR$/my_app/urls.py" />
         <option value="$PROJECT_DIR$/FarmMoni/settings.py" />
         <option value="$PROJECT_DIR$/my_app/__init__.py" />
         <option value="$PROJECT_DIR$/my_app/static/GCNN.py" />
+        <option value="$PROJECT_DIR$/my_app/newcnn1 (1).py" />
+        <option value="$PROJECT_DIR$/templates/User/User_dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_view_users.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_view_feedback.html" />
+        <option value="$PROJECT_DIR$/templates/User/send_feedback.html" />
+        <option value="$PROJECT_DIR$/my_app/predictioncnn.py" />
         <option value="$PROJECT_DIR$/my_app/GPred.py" />
         <option value="$PROJECT_DIR$/my_app/GCNN.py" />
         <option value="$PROJECT_DIR$/templates/User/upload_image.html" />
-        <option value="$PROJECT_DIR$/templates/User/User_dashboard.html" />
+        <option value="$PROJECT_DIR$/my_app/urls.py" />
+        <option value="$PROJECT_DIR$/templates/User/disease.py" />
         <option value="$PROJECT_DIR$/my_app/views.py" />
-        <option value="$PROJECT_DIR$/my_app/predictioncnn.py" />
         <option value="$PROJECT_DIR$/templates/User/uploadimg.html" />
-        <option value="$PROJECT_DIR$/my_app/newcnn1 (1).py" />
+        <option value="$PROJECT_DIR$/media/fertilizers.csv" />
+        <option value="$PROJECT_DIR$/templates/User/fertilizers and watering schedule.csv" />
       </list>
     </option>
   </component>
@@ -265,7 +416,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FarmMoni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FarmMoni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="my_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FarmMoni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FarmMoni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,28 +468,30 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Python313/python.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="bg&#9;FILE&#9;file://C:/Users/shaha/PycharmProjects/FarmMoni/my_app/static/img/bg-01.jpg&#10;fav&#9;null&#9;null&#10;cmd&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="fer&#9;FILE&#9;file://C:/Users/shaha/PycharmProjects/FarmMoni/media/fertilizers.csv&#10;bg&#9;FILE&#9;file://C:/Users/shaha/PycharmProjects/FarmMoni/my_app/static/img/bg-01.jpg&#10;fav&#9;null&#9;null&#10;cmd&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app" />
-      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\templates\User" />
-      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\templates\Admin" />
-      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app\static\register" />
-      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app\static\img\icon" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\media" />
       <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app\static\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\templates\User" />
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\media" />
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app\data" />
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\my_app" />
+      <recent name="C:\Users\shaha\PycharmProjects\FarmMoni\templates\Admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newcnn1 (1)">
+  <component name="RunManager" selected="Django server.FarmMoni">
     <configuration default="false" name="GCNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,6 +540,25 @@
       <module name="FarmMoni" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_app/GPred.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="disease" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/templates/User" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FarmMoni" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/templates/User/disease.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -593,17 +797,19 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.predictioncnn" />
       <item index="1" class="java.lang.String" itemvalue="Python.newcnn1 (1)" />
       <item index="2" class="java.lang.String" itemvalue="Django server.FarmMoni" />
       <item index="3" class="java.lang.String" itemvalue="Python.GCNN" />
       <item index="4" class="java.lang.String" itemvalue="Python.GPred" />
+      <item index="5" class="java.lang.String" itemvalue="Python.disease" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.GPred" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GCNN" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.disease" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GPred" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GCNN" />
       </list>
     </recent_temporary>
   </component>
@@ -621,6 +827,14 @@
       <option name="presentableId" value="Default" />
       <updated>1739515511971</updated>
     </task>
+    <task id="LOCAL-00001" summary="fertilizer and watering schedule">
+      <created>1742779727028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742779727028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -635,24 +849,24 @@
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2906" height="1730" extended-state="6" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1558023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982224" sideWeight="0.5013889" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32926002" sideWeight="0.36712036" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3401222" sideWeight="0.49861112" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37338763" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3348854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3693143" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.6328797" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39986423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49861112" order="10" side_tool="false" content_ui="tabs" />
     </layout>
@@ -665,18 +879,18 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3401222" sideWeight="0.49861112" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33129668" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37338763" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.247851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1493553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32926002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49861112" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39986423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,6 +898,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fertilizer and watering schedule" />
+    <option name="LAST_COMMIT_MESSAGE" value="fertilizer and watering schedule" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,95 +916,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FarmMoni/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/plugins/gmaps/gmaps.js" />
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/assets/img/error-404-monochrome.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/User/assets/img/error-404-monochrome.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/img/icon/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/img/bg-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html" />
-    <entry file="file://$PROJECT_DIR$/templates/regi.html" />
-    <entry file="file://$PROJECT_DIR$/my_app/static/register/images/image-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/register/images/image-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67518">
-          <caret line="2046" column="2" lean-forward="false" selection-start-line="2046" selection-start-column="2" selection-end-line="2046" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/profiler/thriftpy/thrift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4850">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/profiler/thriftpy/_compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/upload/css.css" />
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/upload/up.js" />
-    <entry file="file://$PROJECT_DIR$/my_app/static/Admin/upload/style.css" />
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_view_feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_view_users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/static/register/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_app/static/register/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -799,20 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/User/send_feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -846,26 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/model1.h5" />
-    <entry file="file://$PROJECT_DIR$/FarmMoni/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,35 +1008,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1551">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/0a5cb475-a6e8-4233-b251-bc5165868730___R.S_HL 7978 copy_DtAwUMm.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/00a20f6f-e8bd-4453-9e25-36ea70feb626___RS_GLSp 4655 - Copy_MrPxjoZ.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S 8593_270deg.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1710490230278_N0MusWD.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_app/model1.h5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/django/utils/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/0a3f8b2f-9bb1-4da9-85a1-fb5a52c059e2___RS_HL 2478_newPixel25 - Copy.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/0c865fa4-b0bf-4e69-b39a-d97b068cef84___RS_Erly.B 7477.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/0ab172fa-ac7b-4a3e-90c8-0708703eb3bb___RS_Late.B 5572_flipLR.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/0ad1f85a-765f-43e5-8b7b-4a7521be768d___R.S_HL 5520 copy 2_flipLR.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1709272861484.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1_flipTB.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_view_users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_view_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/send_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/User/upload_image.html">
+    <entry file="file://$PROJECT_DIR$/my_app/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6435">
-          <caret line="195" column="58" lean-forward="false" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
-          <folding>
-            <element signature="e#5474#5496#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/urls.py">
+    <entry file="file://$PROJECT_DIR$/my_app/predictioncnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1848">
+          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/User/User_dashboard.html">
+    <entry file="file://$PROJECT_DIR$/my_app/GCNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_app/GPred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="e#26#35#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,61 +1142,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/predictioncnn.py">
+    <entry file="file://$PROJECT_DIR$/my_app/newcnn1 (1).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="e#26#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/GPred.py">
+    <entry file="file://$PROJECT_DIR$/templates/User/upload_image.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="8448">
+          <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/views.py">
+    <entry file="file://$PROJECT_DIR$/FarmMoni/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3696">
-          <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1452">
+          <caret line="45" column="48" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/GCNN.py">
+    <entry file="file://$PROJECT_DIR$/templates/User/User_dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4191">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/watering_schedule.csv" />
+    <entry file="file://$PROJECT_DIR$/templates/User/disease.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/User/uploadimg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3399">
-          <caret line="103" column="55" lean-forward="false" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
+        <state relative-caret-position="33">
+          <caret line="279" column="45" lean-forward="false" selection-start-line="279" selection-start-column="45" selection-end-line="279" selection-end-column="45" />
+          <folding>
+            <marker date="1742719371587" expanded="false" signature="10117:10131" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/chemicals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_app/newcnn1 (1).py">
+    <entry file="file://$PROJECT_DIR$/media/fertilizers.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="1033">
+          <caret line="345" column="152" lean-forward="false" selection-start-line="345" selection-start-column="152" selection-end-line="345" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
-            <element signature="e#27#68#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/fertilizersS.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/fertilizers and watering schedule.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

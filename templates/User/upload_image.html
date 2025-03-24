@@ -174,86 +174,140 @@ h1 {
 {#  </script>#}
 {#</body>#}
 
-    <body>
+{#    <body>#}
+{#    <form action="/upload_image" enctype="multipart/form-data" method="post">#}
+{#  <div class="wrapper">#}
+{#    <div class="container">#}
+{#      <h1>Upload a file</h1>#}
+{#      <div class="upload-container">#}
+{#        <div class="border-container" id="drop-zone">#}
+{#          <div class="icons fa-4x">#}
+{#            <i class="fas fa-file-image"></i>#}
+{#            <i class="fas fa-file-alt"></i>#}
+{#            <i class="fas fa-file-pdf"></i>#}
+{#          </div>#}
+{#          <p>Drag and drop files here, or#}
+{#            <a href="#" id="file-browser">browse</a> your computer.#}
+{#          </p>#}
+{##}
+{#          <input type="file" id="file-upload" name="file" style="display: none;">#}
+{#          <p id="file-name"></p>#}
+{#            <!-- Display selected file name -->#}
+{# <button type="submit" id="upload-button">Predict</button>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
+{#        </form>#}
+{##}
+{#  <script>#}
+{#    const fileInput = document.getElementById("file-upload");#}
+{#    const fileBrowser = document.getElementById("file-browser");#}
+{#    const fileNameDisplay = document.getElementById("file-name");#}
+{#    const dropZone = document.getElementById("drop-zone");#}
+{##}
+{#    // Open file explorer when "Browse" is clicked#}
+{#    fileBrowser.addEventListener("click", function (e) {#}
+{#      e.preventDefault();#}
+{#      fileInput.click();#}
+{#    });#}
+{##}
+{#    // Display selected file name#}
+{#    fileInput.addEventListener("change", function () {#}
+{#      let file = this.files[0];#}
+{#      if (file) {#}
+{#        fileNameDisplay.textContent = "Selected file: " + file.name;#}
+{#      } else {#}
+{#        fileNameDisplay.textContent = "";#}
+{#      }#}
+{#    });#}
+{##}
+{#    // Prevent default behavior for drag events#}
+{#    ["dragenter", "dragover", "dragleave", "drop"].forEach(event => {#}
+{#      dropZone.addEventListener(event, (e) => {#}
+{#        e.preventDefault();#}
+{#        e.stopPropagation();#}
+{#      });#}
+{#    });#}
+{##}
+{#    // Highlight drop zone when dragging file over it#}
+{#    ["dragenter", "dragover"].forEach(event => {#}
+{#      dropZone.addEventListener(event, () => {#}
+{#        dropZone.style.border = "2px dashed #00f"; // Highlight effect#}
+{#      });#}
+{#    });#}
+{##}
+{#    // Remove highlight when dragging leaves#}
+{#    ["dragleave", "drop"].forEach(event => {#}
+{#      dropZone.addEventListener(event, () => {#}
+{#        dropZone.style.border = "2px dashed #ccc"; // Reset border#}
+{#      });#}
+{#    });#}
+{##}
+{#    // Handle dropped file#}
+{#    dropZone.addEventListener("drop", (e) => {#}
+{#      let files = e.dataTransfer.files;#}
+{#      if (files.length > 0) {#}
+{#        fileInput.files = files; // Assign file to input#}
+{#        fileNameDisplay.textContent = "Selected file: " + files[0].name;#}
+{#      }#}
+{#    });#}
+{#  </script>#}
+{#</body>#}
+<body>
     <form action="/upload_image" enctype="multipart/form-data" method="post">
-  <div class="wrapper">
-    <div class="container">
-      <h1>Upload a file</h1>
-      <div class="upload-container">
-        <div class="border-container" id="drop-zone">
-          <div class="icons fa-4x">
-            <i class="fas fa-file-image"></i>
-            <i class="fas fa-file-alt"></i>
-            <i class="fas fa-file-pdf"></i>
-          </div>
-          <p>Drag and drop files here, or
-            <a href="#" id="file-browser">browse</a> your computer.
-          </p>
+        <table>
+            <label for="category">Stages</label>
+            <select id="category" name="category" required onchange="toggleInputs()">
+                <option value="">Select Stage</option>
+                <option value="Growth stage">Growth stage</option>
+                <option value="Leaf Disease">Leaf Disease</option>
+            </select>
 
-          <input type="file" id="file-upload" name="file" style="display: none;">
-          <p id="file-name"></p>
-            <!-- Display selected file name -->
- <button type="submit" id="upload-button">Predict</button>
-        </div>
-      </div>
-    </div>
-  </div>
-        </form>
+            <tr>
+                <td>
+                    <!-- Plant Image Upload -->
+                    <div id="plant-upload" style="display: none;">
+                        <label>Upload plant image:</label>
+                        <input type="file" name="file1">
+                    </div>
 
-  <script>
-    const fileInput = document.getElementById("file-upload");
-    const fileBrowser = document.getElementById("file-browser");
-    const fileNameDisplay = document.getElementById("file-name");
-    const dropZone = document.getElementById("drop-zone");
+                    <!-- Leaf Image Upload -->
+                    <div id="leaf-upload" style="display: none;">
+                        <label>Upload leaf image:</label>
+                        <input type="file" name="file2">
+                    </div>
 
-    // Open file explorer when "Browse" is clicked
-    fileBrowser.addEventListener("click", function (e) {
-      e.preventDefault();
-      fileInput.click();
-    });
+                    <input type="submit" value="Predict">
+                    <div class="result">Result: {{ val2 }}</div>
+                    <div class="result">Result: {{ val }}</div>
+                </td>
+            </tr>
+        </table>
+    </form>
 
-    // Display selected file name
-    fileInput.addEventListener("change", function () {
-      let file = this.files[0];
-      if (file) {
-        fileNameDisplay.textContent = "Selected file: " + file.name;
-      } else {
-        fileNameDisplay.textContent = "";
-      }
-    });
+    <script>
+        function toggleInputs() {
+            const category = document.getElementById('category').value;
+            const plantUpload = document.getElementById('plant-upload');
+            const leafUpload = document.getElementById('leaf-upload');
 
-    // Prevent default behavior for drag events
-    ["dragenter", "dragover", "dragleave", "drop"].forEach(event => {
-      dropZone.addEventListener(event, (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-      });
-    });
-
-    // Highlight drop zone when dragging file over it
-    ["dragenter", "dragover"].forEach(event => {
-      dropZone.addEventListener(event, () => {
-        dropZone.style.border = "2px dashed #00f"; // Highlight effect
-      });
-    });
-
-    // Remove highlight when dragging leaves
-    ["dragleave", "drop"].forEach(event => {
-      dropZone.addEventListener(event, () => {
-        dropZone.style.border = "2px dashed #ccc"; // Reset border
-      });
-    });
-
-    // Handle dropped file
-    dropZone.addEventListener("drop", (e) => {
-      let files = e.dataTransfer.files;
-      if (files.length > 0) {
-        fileInput.files = files; // Assign file to input
-        fileNameDisplay.textContent = "Selected file: " + files[0].name;
-      }
-    });
-  </script>
+            if (category === 'Growth stage') {
+                plantUpload.style.display = 'block';
+                leafUpload.style.display = 'none';
+            } else if (category === 'Leaf Disease') {
+                plantUpload.style.display = 'none';
+                leafUpload.style.display = 'block';
+            } else {
+                plantUpload.style.display = 'none';
+                leafUpload.style.display = 'none';
+            }
+        }
+    </script>
 </body>
+
+
+
 
 
 {% endblock %}
